@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Выберите авто, на котором хотите поехать</h1>
+    <div class="carsContainer">
+        <div class="car">
+            <img src="img/w204.jpg" class="image" alt="Mercedes C-class W204" srcset="">
+            <h2 id="carName1"></h2>
+            <button onclick="mercedes.get()">Выбрать авто</button>
+        </div>  
+        <div class="car">
+            <img src="img/silvia.jpg" class="image" alt="Nissan Silvia S15" srcset="">
+            <h2 id="carName1"></h2>
+            <button onclick="nissan.get()">Выбрать авто</button>        
+        </div>  
+        <div class="car">
+            <img src="img/supra.jpg" class="image" alt="Toyota Supra A80" srcset="">
+            <h2 id="carName3"></h2>
+            <button onclick="toyota.get()">Выбрать авто</button>                    
+        </div>        
+    </div> 
+    <p id="carInfo"></p>    
+</body>
+<script src="js/main.js"></script>
+</html>
